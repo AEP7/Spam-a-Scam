@@ -10,7 +10,9 @@ This Jupyter Notebook contains a Python script that is designed to perform repea
 
 3. Modify the `times` variable to specify the number of POST requests you want to send.
 
-4. Run the notebook cell by cell.
+4. Modify the `payload_email` and `payload_password` variables to specify the data structure of the payload.
+
+5. Run the notebook cell by cell.
 
 The notebook will send the specified number of POST requests with random data to the target URL. If a request is successful (HTTP status code 200), it will be indicated in the notebook's output. Otherwise, the HTTP status code indicating the failure will be displayed.
 
